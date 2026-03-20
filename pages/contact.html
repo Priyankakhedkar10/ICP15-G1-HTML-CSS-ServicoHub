@@ -1,42 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Servico Hub</title>
-    
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="./../css/navbar.css">
-    <link rel="stylesheet" href="./../css/style.css">
+  <meta charset="UTF-8">
+  <title>Servico Hub - Contact</title>
+  <link rel="stylesheet" href="./../css/contact.css">
+  <link rel="stylesheet" href="./../css/header-footer.css">
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="main-logo-img">
-            <img src="./../images/Servico Hub logo design showcase.png" alt="Servico Hub logo" class="logo">
-            
-            
-                <h1>Servico-Hub</h1>
-            </br>
-                <p>Your Trusted Service Partner</p>
-            </div>
+<header class="navbar">
+  <div class="logo">
+    <img src="https://img.icons8.com/fluency/48/service.png" alt="logo">
+    <span>Servico<span style="color:#1e4ed8;">Hub</span></span>
+  </div>
+  <nav>
+    <a href="./../index.html">Home</a>
+    <a href="./../pages/service.html">Services</a>
+     <a href="./../pages/booking.html">Booking Service</a>
+    <a href="./../pages/about.html">About</a>
+    <a href="./../pages/contact.html" class="active">Contact</a>
+  </nav>
+   <nav>
+  <button class="btn-primary">Login</button>
+  <button class="btn-primary">Sign Up</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Get in touch.</h1>
+  <p>
+    We're here to help with your home service needs. Whether you have a question 
+    or need support, our team is ready to assist you.
+  </p>
+</section>
+<section class="contact-container">
+  <div class="contact-form">
+    <h2>Send us a message</h2>
+
+    <div class="row">
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email Address">
+    </div>
+
+    <select>
+      <option>General Inquiry</option>
+      <option>Support</option>
+      <option>Booking</option>
+    </select>
+    <textarea placeholder="How can we help you today?"></textarea>
+    <button class="btn-primary">Send Message</button>
+  </div>
+
+  <div class="right-section">
+
+    <div class="info-card">
+      <h3>Contact Information</h3>
+
+      <div class="info-item">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/marker.png"/>
+        <div>
+          <h4>Our Office</h4>
+          <p><a href="https://maps.app.goo.gl/vpnFwZfDn5m2Z5aS9" class="text-contact"> Service Plaza, Pune, Maharashtra, India</a></p>
         </div>
-    </header>
+      </div>
 
-    <nav class="navbar">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">services</a></li>
-            <li><a href="#">Booking</a></li>
-            <li><a href="#" class="active">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+      <div class="info-item">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/phone.png"/>
+        <div>
+          <h4>Phone</h4>
+          <p><a href="tel:7744006306" class="text-contact">7744006306</a></p>
+        </div>
+      </div>
 
-    <footer>
-        <p>© 2026 Servico Hub | All Rights Reserved</p>
-    </footer>
+
+      <div class="info-item">
+        <img src="https://img.icons8.com/ios-filled/50/ffffff/new-post.png"/>
+        <div>
+          <h4>Email</h4>
+          <p><a href="mailto:harshpohane4@gmail.com" class="text-contact">harshpohane4@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-card">
+      <p class="map-label">Map location</p>
+
+      <div class="map-placeholder">
+      <a href="https://maps.app.goo.gl/vpnFwZfDn5m2Z5aS9" target="_blank"> <img src="https://img.icons8.com/fluency/48/marker.png" class="map-icon"/></a>   
+      </div>
+
+      <div class="hq-card">
+        <span> LOCATION</span>
+        <h4>Servico Hub</h4>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="faq">
+  <h3>Common Questions</h3><br><br>
+  <div class="chips">
+    <span>How do I pay?</span>
+    <span>Booking policy</span>
+    <span>Service guarantee</span>
+    <span>Our Pros vetting process</span>
+  </div>
+</section>
+
+<footer><hr><br><br><br><br><br>
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <h2>Servico <span style="color:#1e4ed8;">Hub</span></h2><br>
+      <p>Connecting you with premium service professionals.<br><br>
+        through a curated experience of trust and architechtural <br><br> simplicity.
+      </p>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4><br>
+      <p><a href="" class="text-color">Home</a></p><br>
+      <p><a href="" class="text-color">About</a></p><br>
+      <p><a href="" class="text-color">Services</a></p><br>
+      <p><a href="" class="text-color">Contact</a></p><br>
+    </div>
+
+    <div>
+      <h4>Popular Services</h4><br>
+      <p><a href="./../pages/services.html#Electrician" class="text-color">Electrician</a></p><br>
+      <p><a href="./../pages/services.html#Plumber" class="text-color">Plumber</a></p><br>
+      <p><a href="./../pages/services.html#AC Repair" class="text-color">AC Repair</a></p><br>
+      <p><a href="./../pages/services.html#Carpenter" class="text-color">Carpenter</a></p><br>
+    </div> 
+  <div >
+        <h2>Contact</h2><br>
+        <div class="footer-contact">
+          <img src="./../images/contactmail.jpg" height="25px"/>&nbsp;
+        <p>Email: <a href="mailto:harshpohane4@gmail.com" class="text-color">harshpohane4@gmail.com</a> </p></div><br>
+        <div class="footer-contact">
+           <img src="./../images/contactphone.png" height="25px"/>&nbsp; 
+        <p>Phone: <a href="tel:7744006306" class="text-color">7744006306</a></p><br>
+        </div><br>
+        <div class="footer-contact">
+           <img src="./../images/instagram.png" height="25px"/>&nbsp; 
+        <p>Instagram: <a href="http://www.instagram.com/yourusername" target="_blank" class="text-color"></a>harsh_pohane23</a></p><br>
+        </div><br>
+        <div class="footer-contact">
+           <img src="./../images/github.png" height="25px"/>&nbsp; 
+        <p>Github: <a href="https://github.com/HarshPohane" class="text-color">HarshPohane
+</a></p><br>
+        </div>
+      </div>
+  </div><br><br><br><br>
+  <hr><br>
+  <p class="copyright">© 2026 Servico Hub. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
