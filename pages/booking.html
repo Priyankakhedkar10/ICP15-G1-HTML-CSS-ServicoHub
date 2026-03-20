@@ -4,8 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/booking.cssgi">
 </head>
 <body>
+    <div class="main">
+    <section class="hero">
+        <div class="hero-inner">
+            <h1>Request a Professional.</h1>
+            <p>Book top-rated, vetted experts for any home project. Fast scheduling, transparent upfront pricing, and a service guarantee.</p>
+        </div>
+    </section>
     
+    <div class="booking-container">
+        <div class="booking-header">
+            <h2>Book Your Professional Service</h2>
+            <p>Reliable electricians, plumbers, and carpenters at your doorstep.</p>
+        </div>
+
+        <form id="bookingForm" class="booking-form">
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text"  name="fullName" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email"  name="email" placeholder="email@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel"  name="phone" placeholder="Your mobile number" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="service">Select Service</label>
+                <select id="service" name="service" required>
+                    <option value="" disabled selected>Choose a service...</option>
+                    <option value="electrician">Electrician (Wiring, Fan, Lights)</option>
+                    <option value="plumber">Plumber (Leaking, Pipeline, Taps)</option>
+                    <option value="carpenter">Carpenter (Furniture Repair, Door)</option>
+                    <option value="appliance">Appliance Repair (Fridge, AC, TV)</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="date">Preferred Date</label>
+                    <input type="date"  name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Preferred Time</label>
+                    <input type="time"  name="time" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="number">How many laber you needed?</label>
+                <input type="number" placeholder="How many laber you needed?" required>
+            </div>
+
+            <div class="form-group">
+                <label for="address">Service Address</label>
+                <textarea  name="address" rows="3" placeholder="Enter your full address" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="notes">Additional Details (Optional)</label>
+                <textarea name="notes" rows="2" placeholder="Tell us more about the issue..."></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Confirm Booking</button>
+        </form>
+    </div>
+</div>
+
 </body>
 </html>
