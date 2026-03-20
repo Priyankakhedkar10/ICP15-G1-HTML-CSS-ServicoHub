@@ -1,11 +1,11 @@
-/* ===== HERO ===== */
+
 .about-hero {
     text-align: center;
     padding: 60px 20px;
     background: #f4f4f4;
 }
 
-/* ===== ABOUT SECTION ===== */
+
 .about-section {
     display: flex;
     padding: 40px;
@@ -34,7 +34,7 @@
     border-radius: 10px;
 }
 
-/* ===== WHY US ===== */
+
 .why-us {
     text-align: center;
     padding: 50px;
