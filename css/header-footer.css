@@ -55,8 +55,8 @@ nav .active {
   cursor: pointer;
 }
 footer {
-  padding: 40px 60px;
-  margin-top: 40px;
+  padding: 0px 60px;
+  margin-top: 2px;
 }
 
 .footer-container {
@@ -188,7 +188,7 @@ text-decoration: none;
   padding: 40px 80px;
 }
 
-.footer-container > div {
+.footer-container  div {
   flex: 1;
   min-width: 220px;
 }
