@@ -85,6 +85,12 @@ footer .btn-primary {
   .footer-contact{
     display: flex;
   }
+  .copyright{
+
+  }
+  .logo-decoration{
+text-decoration: none;
+  }
  @media (max-width: 992px) {
   .contact-container {
     flex-direction: column;
