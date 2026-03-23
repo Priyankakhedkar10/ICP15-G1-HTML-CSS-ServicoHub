@@ -26,8 +26,6 @@
   </nav>
 </header><br>
 
-
-    <div class="main">
     <section class="hero">
         <div class="hero-inner">
             <h1>Request a Professional.</h1>
@@ -35,6 +33,8 @@
         </div>
     </section>
     <br><br>
+    
+    <div class="main">
     <div class="booking-container">
         <div class="booking-header">
             <h2>Book Your Professional Service</h2>
@@ -43,23 +43,23 @@
 
         <form id="bookingForm" class="booking-form">
             <div class="form-group">
-                <label for="fullName">Full Name</label>
+                <label for="fullName">Full Name:</label>
                 <input type="text"  name="fullName" placeholder="Enter your name" required>
             </div>
 
             <div class="form-row">
                 <div class="form-group">
-                    <label for="email">Email Address</label>
+                    <label for="email">Email Address:</label>
                     <input type="email"  name="email" placeholder="email@example.com" required>
                 </div>
                 <div class="form-group">
-                    <label for="phone">Phone Number</label>
+                    <label for="phone">Phone Number:</label>
                     <input type="tel"  name="phone" placeholder="Your mobile number" required>
                 </div>
             </div>
 
             <div class="form-group">
-                <label for="service">Select Service</label>
+                <label for="service">Select Service:</label>
                 <select id="service" name="service" required>
                     <option value="" disabled selected>Choose a service...</option>
                     <option value="electrician">Electrician (Wiring, Fan, Lights)</option>
@@ -71,15 +71,15 @@
 
             <div class="form-row">
                 <div class="form-group">
-                    <label for="date">Preferred Date</label>
+                    <label for="date">Preferred Date:</label>
                     <input type="date"  name="date" required>
                 </div>
                 <div class="form-group">
-                    <label for="time">Preferred Time</label>
+                    <label for="time">Preferred Time:</label>
                     <input type="time"  name="time" required>
                 </div>
             </div>
-            <div class="form-group1">
+            <div class="form-group">
                  <label for="file-upload">Choose a photo:</label>
                  <input type="file" name="myFile" id="file-upload">
 
@@ -90,18 +90,55 @@
             </div>
 
             <div class="form-group">
-                <label for="address">Service Address</label>
+                <label for="address">Service Address:</label>
                 <textarea  name="address" rows="3" placeholder="Enter your full address" required></textarea>
             </div>
 
             <div class="form-group">
-                <label for="notes">Additional Details (Optional)</label>
+                <label for="notes">Additional Details:(Optional)</label>
                 <textarea name="notes" rows="2" placeholder="Tell us more about the issue..."></textarea>
             </div>
 
             <button type="submit" class="submit-btn">Confirm Booking</button>
         </form>
     </div>
+<div class="booking-container1">
+    <div class="booking-sidebar">
+        <div class="sidebar-card guarantee-card">
+            <h3>Our Guarantee</h3>
+            <div class="guarantee-item">
+                <img src="https://img.icons8.com/fluency/48/checked-user-male.png" alt="check" width="30">
+                <div>
+                    <p><strong>Background Checked</strong></p>
+                    <span>All pros undergo rigorous identity and criminal checks.</span>
+                </div>
+            </div>
+            <div class="guarantee-item">
+                <img src="https://img.icons8.com/fluency/48/shield.png" alt="shield" width="30">
+                <div>
+                    <p><strong>Price Protection</strong></p>
+                    <span>Upfront pricing with no hidden costs or surprise fees.</span>
+                </div>
+            </div>
+        </div><br>
+    
+
+        <div class="sidebar-card summary-card">
+            <h3>Standard Charges</h3>
+            <ul class="price-list">
+                <li><span>Electrician</span> <span>200 Rs/hr</span></li>
+                <li><span>Plumber</span> <span>300 Rs/hr</span></li>
+                <li><span>Carpenter</span> <span>280 Rs/hr</span></li>
+                <li><span>AC Repair</span> <span>400 Rs/hr</span></li>
+                <hr>
+                <li class="extra-charge"><span>Visiting Fee</span> <span>+100</span></li>
+            </ul>
+            <p class="disclaimer">*Final quote provided after inspection.</p>
+        </div>
+    </div>
+
+</div>
+
 </div>
 
 <footer><br><hr><br><br>
@@ -112,8 +149,8 @@
     <img src="https://img.icons8.com/fluency/48/service.png" alt="logo">
    <a href="./../index.html" class="logo-decoration"> <span style="color:black;">Servico<span style="color:#1e4ed8;">Hub</span></span></a>
   </div><br>
-      <p>Connecting you with premium service professionals.<br><br>
-        through a curated experience of trust and architechtural <br><br> simplicity.
+      <p class="paragraph">Connecting you with premium service professionals.
+        through a curated experience of trust and architechtural simplicity.
       </p>
     </div>
 
